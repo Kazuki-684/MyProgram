@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>サイトタイトル</title>
+		<meta name="description" content="サイトキャプションを入力">
+		<meta name="keywords" content="サイトキーワードを,で区切って入力">
+		<!-- <link rel="stylesheet" href="sample.css"> -->
+	</head>
+
+	<body>
+		<!----- ヘッダー ----->
+		<!-- <header>ヘッダー</header> -->
+		<!-- <nav>ナビ</nav> -->
+		<!----- ヘッダー END ----->
+		
+		<!----- メインコンテンツ ----->
+		<article>
+			<h1>FSスカウト</h1>
+			<section>
+				<h2 id="title"></h2>
+                <form id="skillForm">
+                    <input type="text" name="skill" id="skillLabel" placeholder="例)JavaScript">
+                    <input name = "submit" type="submit" value="送信する">
+                </form>
+                <div id="skillList"></div>
+                <form>
+                    <input type="submit" value="コード作成">
+                </form>
+				<p id="message"></p>
+
+				<input id="file_load" type="file">
+				<p id="file_name">file名 = </p>
+				<p id="file_data">fileの内容 = </p>
+
+                <div id="result"></div>
+			</section>
+		</article>
+		<!----- メインコンテンツ END ---->
+		
+		<!----- フッター ----->
+		<!-- <footer>フッター</footer> -->
+		<!----- フッター END ----->
+		<script src="./makeCode.js"></script>
+	</body>
+</html>
