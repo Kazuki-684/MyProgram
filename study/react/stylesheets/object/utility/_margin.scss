@@ -1,0 +1,29 @@
+@for $margin from 1 through 10 {
+    .u-margin#{$margin}px{
+        margin: $margin+px;
+    }
+} 
+
+@for $margin from 1 through 10 {
+    .u-margin-top#{$margin}px{
+        margin-top: $margin+px;
+    }
+} 
+
+@for $margin from 1 through 10 {
+    .u-margin-bottom#{$margin}px{
+        margin-bottom: $margin+px;
+    }
+} 
+
+@for $margin from 1 through 10 {
+    .u-margin-right#{$margin}px{
+        margin-right: $margin+px;
+    }
+} 
+
+@for $margin from 1 through 10 {
+    .u-margin-left#{$margin}px{
+        margin-bottom: $margin+px;
+    }
+} 

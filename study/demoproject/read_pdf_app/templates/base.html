@@ -1,0 +1,21 @@
+<!--ttps://qiita.com/rokumura7/items/9a0e5d0c535c27ac8de9-->
+<!--↑htmlテンプレート-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="・・・">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex,nofollow">
+  <title>{% block title%}テスト{% endblock %}</title>
+  <link rel="shortcut icon" href="・・・" >
+  {% load sass_tags %}
+  <link rel="stylesheet" href="{% sass_src 'read_pdf_app/sass/app.scss' %}" type="text/css">
+</head>
+<body>
+  {% block content %}
+  {% endblock %}
+</body>
+</html>

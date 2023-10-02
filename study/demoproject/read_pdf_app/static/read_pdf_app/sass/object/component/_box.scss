@@ -1,0 +1,20 @@
+@mixin box($widpx,$heipx,$font){
+    background-color: rgb(224, 226, 229);
+    width: $widpx;
+    height: $heipx;
+    
+    &__title{
+        text-align: center;
+        font-family: $font;
+    }
+    &--shadow{
+        box-shadow: 0 0 2px inset;
+    }
+    &--radius{
+        border-radius: 10px;
+    }
+}
+
+.c-mainbox{
+    @include box(500px,400px,Georgia); 
+}

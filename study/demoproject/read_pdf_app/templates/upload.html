@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}read_pdf{% endblock %}
+
+{% block content %}
+<div class = "c-mainbox c-mainbox--shadow c-mainbox--radius u-flexbox u-flexbox__center u-flexbox__column">
+  <h1 class="c-mainbox__title">Upload</h1>
+  <form id="pdfForm" action="" method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <label class="p-upload-label p-upload-label__main u-flexbox u-flexbox__column u-flexbox__center c-mainbox--radius u-margin-top10px">
+      {% load static %}
+      <img class="u-img210-140" src="{% static 'read_pdf_app/images/upload.png' %}">
+      <input type="file"  multiple  name="pdfFile">
+    </form>
+    <label>
+      <input type="submit"  value="アップロード">
+    </label>
+  </form>
+</div>
+
+{% if upload_file_url%}
+<p>ファイルがアップロードされました</p>
+<p><a href="/read_pdf/business{{ upload_file_url }}">事業内容を見る</a></p>
+{% endif%}
+
+{% endblock %}

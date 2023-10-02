@@ -1,0 +1,12 @@
+@for $i from 1 through 30 {
+    $width: $i*10;
+    @for $i2 from 1 through 30{
+        $height: $i2*10;
+        .u-img#{$width}-#{$height}{
+            width: $width+px;
+            height: $height+px;
+        }
+    }  
+} 
+
+
