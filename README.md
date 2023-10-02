@@ -11,8 +11,11 @@ This is a program I created for a college project. The assignment was to "develo
 I thought it would be useful to digitize prescriptions and other documents using image recognition, so I did a quick search for an API that provided OCR, but couldn't find any free ones.
 So I decided to create my own using tesseract to understand REST. This is not a practical application, but I am posting it as a portfolio.
 Here is how I actually used tesseract.
+![スクリーンショット 2023-07-30 005702](https://github.com/Kazuki-684/MyProgram/assets/135617342/0e6e6ff2-2407-4736-bfe5-e361381787ff)
 
 3.study
 ---
 This is the demo code for a company research application I am developing as part of my seminar research. It is not a finished version, but I have uploaded it.
 The technologies used are as follows.
+![image](https://github.com/Kazuki-684/MyProgram/assets/135617342/9480506f-d9df-48cc-ba5d-39df530a2b5b)
+
